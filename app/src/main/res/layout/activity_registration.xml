@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rut.taxi.Registration">
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginStart="140dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:text="@string/user"
+            android:textSize="15dp"
+            tools:ignore="SpUsage" />
+
+        <RadioButton
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.13"
+            android:checked="false"
+            android:text="@string/driver"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="29dp"
+        android:ems="10"
+        android:hint="Email...'name'@cab.com"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/pwd_et"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText,TextFields"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <EditText
+        android:id="@+id/pwd_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/cno_et"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintLeft_toLeftOf="@+id/email_et" />
+
+    <EditText
+        android:id="@+id/cno_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mobile No..."
+        android:inputType="number"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/pwd_et"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="166dp"
+        app:layout_constraintLeft_toLeftOf="@+id/pwd_et"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="39dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

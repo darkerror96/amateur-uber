@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Taxi</string>
+    <string name="email">Email...</string>
+    <string name="login">LogIn</string>
+    <string name="driver">Driver</string>
+    <string name="user">User</string>
+    <string name="get_driver_list">Get Driver List</string>
+    <string name="driver_name">Driver Name :</string>
+    <string name="total_distance">Total Distance :</string>
+    <string name="bill_details">Bill Details</string>
+    <string name="total_amount_rs">Total Amount (Rs) :</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="password">Password...</string>
+    <string name="register">Register</string>
+    <string name="yourname_cab_com">yourname@cab.com</string>
+    <string name="price_km">Price / Km</string>
+    <string name="get_driver_profile">Get Driver Profile</string>
+    <string name="total_rides">Total Rides :</string>
+    <string name="done">Done</string>
+    <string name="name">Name :</string>
+    <string name="review">Review :</string>
+    <string name="add_fuel_bill">Add Fuel Bill</string>
+    <string name="previous_amount">Previous Amount :</string>
+</resources>

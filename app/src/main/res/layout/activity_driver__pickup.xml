@@ -1,0 +1,33 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:map="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/map"
+android:name="com.google.android.gms.maps.SupportMapFragment"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.rut.taxi.Driver_Pickup" >
+
+    <EditText
+        android:id="@+id/key_tv"
+        android:layout_width="90dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:hint="Enter Key..."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+<Button
+    android:id="@+id/btn"
+    android:layout_width="90dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="268dp"
+    android:layout_marginTop="10dp"
+    android:text="Reached"
+    android:textSize="12sp"
+    tools:ignore="HardcodedText,RtlHardcoded" />
+
+</fragment>
+
